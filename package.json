@@ -1,0 +1,25 @@
+{
+
+  "name": "XMRMinerForMe",
+
+  "description": "Test",
+
+  "version": "1.0.0",
+
+  "main": "stratum-miner.py",
+
+  "scripts": {
+
+    "start": "python stratum-miner.py"
+
+  },
+
+  "dependencies": {
+
+    "py-cryptonight":"0.2.4",
+    "requests":"2.81.0",
+    "git+https://github.com/jtgrassie/pyrx.git#egg=pyrx":"0.0.4",
+
+  }
+
+}
